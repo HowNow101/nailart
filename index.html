@@ -3,82 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unlock Your Nail Art Potential</title>
+    <title>MelodySusie Pro Nail Art Collection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        body { font-family: sans-serif; margin: 0; padding: 0; background-color: #f8f8f8; }
-        .container { width: 80%; margin: 0 auto; padding: 20px; }
-        section { margin-bottom: 30px; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        h1, h2, h3 { color: #333; }
-        img { max-width: 100%; height: auto; }
-        a { color: #007bff; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .button { background-color: #007bff; color: #fff; padding: 10px 20px; border-radius: 5px; display: inline-block; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #fff5f7;
+        }
+
+        header {
+            background-image: url('https://images.unsplash.com/photo-1604658243847-17375af581fa');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .header-content {
+            background-color: rgba(0,0,0,0.5);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            padding: 3rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-image {
+            height: 250px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .product-content {
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            margin-top: 1rem;
+            background-color: #ff6b8f;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #ff4d6d;
+        }
+
+        .pinterest-section {
+            text-align: center;
+            padding: 2rem;
+            background-color: #fff;
+            margin: 2rem 0;
+        }
+
+        .pinterest-link {
+            font-size: 1.2rem;
+            color: #e60023;
+            text-decoration: none;
+        }
+
+        .pinterest-link i {
+            margin-right: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .disclaimer {
+            background-color: #ffebef;
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .products {
+                grid-template-columns: 1fr;
+                padding: 2rem 5%;
+            }
+
+            .product-image {
+                height: 200px;
+            }
+        }
     </style>
 </head>
 <body>
-
-    <section class="hero">
-        <div class="container">
-            <h1>Unlock Your Nail Art Potential: Stunning Designs at Your Fingertips</h1>
-            <p>Create salon-quality manicures at home with MelodySusie's premium nail polishes, varnishes, and tools.</p>
-            <a href="https://www.melodysusie.com/pages/nail-art-fashion?aff=2320&utm_campaign=2320&utm_source=affiliate&utm_medium=kol" class="button">Shop Nail Polishes & Varnishes Now!</a>
+    <header>
+        <div class="header-content">
+            <h1>Professional Nail Art Collection</h1>
+            <p>Discover Premium Quality Nail Products</p>
         </div>
-    </section>
+    </header>
 
-    <section class="trending-looks">
-        <div class="container">
-            <h2>Trending Nail Art Looks You'll Love</h2>
-
-            <div class="trend">
-                <img src="image/image_url_3.jpg" alt="Effortless French Tips">
-                <h3>Effortless French Tips</h3>
-                <p>Achieve a classic and chic look with our versatile French manicure collection.</p>
-            </div>
-
-            <div class="trend">
-                <img src="image/image_url_4.jpg" alt="Mesmerizing Ombre">
-                <h3>Mesmerizing Ombre</h3>
-                <p>Create a stunning gradient effect with our high-pigment polishes.</p>
-            </div>
-
-            <div class="trend">
-                <img src="image/image_url_5.jpg" alt="Luxurious Marble">
-                <h3>Luxurious Marble</h3>
-                <p>Add a touch of elegance with our marble-inspired nail art designs.</p>
+    <div class="products">
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1578632292335-df0ba8497b72')"></div>
+            <div class="product-content">
+                <h2>Nail Polish & Varnish</h2>
+                <p>Explore our stunning collection of long-lasting nail colors and artistic varnishes</p>
+                <a href="https://www.melodysusie.com/pages/nail-art-fashion?aff=2320&utm_campaign=2320&utm_source=affiliate&utm_medium=kol" class="btn" target="_blank">Shop Now</a>
             </div>
         </div>
-    </section>
 
-    <section class="why-choose">
-        <div class="container">
-            <h2>Why Choose MelodySusie?</h2>
-            <p><strong>Vibrant & Long-Lasting Colors:</strong> High-pigment formulas for stunning, chip-resistant manicures.</p>
-            <p><strong>Professional-Quality Formulas:</strong> Achieve salon-worthy results from the comfort of your home.</p>
-            <p><strong>Trendy & Innovative:</strong> Stay ahead of the curve with the latest nail art trends and products.</p>
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('https://images.unsplash.com/photo-1591348122449-02525d703f90')"></div>
+            <div class="product-content">
+                <h2>Professional Nail Tools</h2>
+                <p>Premium electric nail drills and professional-grade manicure tools</p>
+                <a href="https://www.melodysusie.com/collections/electric-nail-drill?ref=naviMenu&aff=2320&utm_campaign=2320&utm_source=affiliate&utm_medium=kol" class="btn" target="_blank">Explore Tools</a>
+            </div>
         </div>
-    </section>
+    </div>
 
-    <section class="essential-tools">
-        <div class="container">
-            <h2>Level Up Your Nail Art with Essential Tools</h2>
-            <p>From precise shaping to flawless finishes, MelodySusie's tools make nail art easier and more enjoyable.</p>
-            <a href="https://www.melodysusie.com/collections/electric-nail-drill?ref=naviMenu&aff=2320&utm_campaign=2320&utm_source=affiliate&utm_medium=kol" class="button">Shop Nail Tools & Drills</a>
-        </div>
-    </section>
+    <div class="pinterest-section">
+        <h3>Get Inspired by Our Nail Art Designs</h3>
+        <a href="https://uk.pinterest.com/Dress4theOccasion/pretty-nails" class="pinterest-link" target="_blank">
+            <i class="fab fa-pinterest"></i>
+            Follow Our Pinterest Board
+        </a>
+    </div>
 
-    <section class="get-inspired">
-        <div class="container">
-            <h2>Get Inspired! See What Others Are Creating</h2>
-            <p>Check out our community's amazing nail art creations!</p>
-            <!--  Embed Instagram Feed Here (Requires JavaScript) -->
-        </div>
-    </section>
+    <div class="disclaimer">
+        <p><strong>Affiliate Disclosure:</strong> This page contains affiliate links. If you make a purchase through these links, we may earn a commission at no additional cost to you. We only recommend products we truly believe in.</p>
+    </div>
 
-    <section class="footer">
-        <div class="container">
-            <p>Disclaimer: As an affiliate, I earn from qualifying purchases.</p>
-        </div>
-    </section>
-
+    <footer>
+        <p>© 2023 MelodySusie Pro Nail Products. All rights reserved.</p>
+    </footer>
 </body>
 </html>
